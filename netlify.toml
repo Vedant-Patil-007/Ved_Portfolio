@@ -1,0 +1,13 @@
+[build]
+  # Your build command and publish directory
+  command   = "npm run build"
+  publish   = "public"
+
+[build.environment]
+  # Ensure Netlify uses Node v18
+  NODE_VERSION = "18"
+
+[dev]
+  # (Optional) if you use netlify dev locally
+  command = "npm run develop"
+  port    = 8888
